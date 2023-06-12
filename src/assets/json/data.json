@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "img": "https://cv-ahmed-c7c19.web.app/images/proj_1.png",
+    "title": "Mobile App",
+    "prag": "This site aims to provide a smooth and convenient experience and to motivate them to visit the restaurant.",
+    "langMade": ["Html", "Css", "jQuery", "Bootsrap"],
+    "githubLink": "https://github.com/AHMED6011/Restaurant",
+    "siteLink": "https://ahmed6011.github.io/Restaurant/"
+  },
+  {
+    "id": 2,
+    "img": "https://cv-ahmed-c7c19.web.app/images/proj_2.png",
+    "title": "Company Site",
+    "prag": "Website for an agency specialized in programming and web design.",
+    "langMade": ["Html", "Css", "jQuery", "JavaScript", "Bootsrap"],
+    "githubLink": "https://github.com/AHMED6011/Company-Website",
+    "siteLink": "https://ahmed6011.github.io/Company-Website/"
+  },
+  {
+    "id": 3,
+    "img": "https://cv-ahmed-c7c19.web.app/images/proj_3.png",
+    "title": "To display product",
+    "prag": "A website for a person or company to display available products.",
+    "langMade": ["Html", "Css", "jQuery", "Bootsrap"],
+    "githubLink": "https://github.com/AHMED6011/Product",
+    "siteLink": "https://ahmed6011.github.io/Product/"
+  },
+  {
+    "id": 4,
+    "img": "https://cv-ahmed-c7c19.web.app/images/proj_4.png",
+    "title": "Website to watch videos",
+    "prag": "A site similar to YouTube that enables the user to watch videos through it and enables the viewer to add video comments.",
+    "langMade": ["Html", "Css", "jQuery", "Bootsrap", "Multi-Pages"],
+
+    "githubLink": "https://github.com/AHMED6011/shahid",
+    "siteLink": "https://ahmed6011.github.io/shahid/"
+  },
+  {
+    "id": 5,
+    "img": "https://cv-ahmed-c7c19.web.app/images/proj_5.png",
+    "title": "Graphic and web design",
+    "prag": "This site enables you to order or buy a ready-made site or design it according to your taste.",
+    "langMade": ["Html", "Css", "JavaScript", "Bootsrap"],
+    "githubLink": "https://github.com/AHMED6011/Template_One",
+    "siteLink": "https://ahmed6011.github.io/Template_One/"
+  },
+  {
+    "id": 6,
+    "img": "https://cv-ahmed-c7c19.web.app/images/proj_6.png",
+    "title": "Loan",
+    "prag": "You can book loans to buy a house or a car.",
+    "langMade": ["Html", "Css", "JavaScript"],
+    "githubLink": "https://github.com/AHMED6011/Loan",
+    "siteLink": "https://ahmed6011.github.io/Loan/"
+  },
+  {
+    "id": 7,
+    "img": "https://cv-ahmed-c7c19.web.app/images/proj_7.png",
+    "title": "Exhibition",
+    "prag": "To show my knowledge of CSS language.",
+    "langMade": ["Html", "Css", "JavaScript"],
+    "githubLink": "https://github.com/AHMED6011/HTML_And_CSS_Project",
+    "siteLink": "https://ahmed6011.github.io/HTML_And_CSS_Project/"
+  }
+]
