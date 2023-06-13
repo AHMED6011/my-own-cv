@@ -24,6 +24,7 @@ import {
   faSass,
   faTelegram,
   faTwitter,
+  faVuejs,
   faWhatsapp
 } from '@fortawesome/free-brands-svg-icons'
 
@@ -68,7 +69,8 @@ library.add(
   faLinkedin,
   faInstagram,
   faWhatsapp,
-  faTelegram
+  faTelegram,
+  faVuejs
 )
 
 const app = createApp(App)
@@ -81,7 +83,7 @@ app.use(router)
 
 app.mount('#app')
 
-//! Animation on Scroll OR on Load
+//! Animation on Scroll Or on Load
 
 app.use(MotionPlugin, {
   directives: {
@@ -112,13 +114,35 @@ app.use(MotionPlugin, {
         opacity: 0,
         x: 200
       },
-      visible: {
+      visibleOnce: {
         opacity: 1,
         x: 0,
         transition: { duration: 700 }
       }
     },
     'visible-right': {
+      initial: {
+        opacity: 0,
+        x: -200
+      },
+      visibleOnce: {
+        opacity: 1,
+        x: 0,
+        transition: { duration: 700 }
+      }
+    },
+    'visibleR-left': {
+      initial: {
+        opacity: 0,
+        x: 200
+      },
+      visible: {
+        opacity: 1,
+        x: 0,
+        transition: { duration: 700 }
+      }
+    },
+    'visibleR-right': {
       initial: {
         opacity: 0,
         x: -200

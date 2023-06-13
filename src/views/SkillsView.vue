@@ -37,11 +37,11 @@ useMotion(targetL, {
           <p></p>
           <li class="skill py-4">
             <div v-motion-enter-left>
-              <h3 class="" style="color: #e8612d">
+              <h3 style="color: #e8612d">
                 <font-awesome-icon icon="fa-brands fa-html5" />
                 Html
               </h3>
-              <p class="">
+              <p>
                 (HyperText Markup Language) is the most basic building block of the Web. It defines
                 the meaning and structure of web content.
               </p>
@@ -49,11 +49,11 @@ useMotion(targetL, {
           </li>
           <li class="skill py-4">
             <div v-motion-enter-right>
-              <h3 class="" style="color: #214ce5">
+              <h3 style="color: #214ce5">
                 <font-awesome-icon icon="fa-brands fa-css3" />
                 Css
               </h3>
-              <p class="">
+              <p>
                 cascading Style Sheets (CSS) is a stylesheet language used to describe the
                 presentation of a document written in HTML or XML (including XML dialects such as
                 SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on
@@ -67,7 +67,7 @@ useMotion(targetL, {
                 <font-awesome-icon icon="fa-brands fa-js" />
                 JavaScript
               </h3>
-              <p class="">
+              <p>
                 JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming
                 language with first-class functions.
               </p>
@@ -75,11 +75,11 @@ useMotion(targetL, {
           </li>
           <li class="skill py-4">
             <div v-motion-visible-right>
-              <h3 class="" style="color: #c76494">
+              <h3 style="color: #c76494">
                 <font-awesome-icon icon="fa-brands fa-sass" />
                 Scss
               </h3>
-              <p class="">
+              <p>
                 SCSS is the most mature, stable, and powerful professional grade CSS extension
                 language in the world..
               </p>
@@ -87,11 +87,11 @@ useMotion(targetL, {
           </li>
           <li class="skill py-4">
             <div v-motion-visible-left>
-              <h3 class="" style="color: #7430f9">
+              <h3 style="color: #7430f9">
                 <font-awesome-icon icon="fa-brands fa-bootstrap" />
                 Bootstrap
               </h3>
-              <p class="">
+              <p>
                 Bootstrap utilizes Sass for a modular and customizable architecture. Import only the
                 components you need, enable global options like gradients and shadows, and write
                 your own CSS with our variables, maps, functions, and mixins.
@@ -100,19 +100,48 @@ useMotion(targetL, {
           </li>
           <li class="skill py-4">
             <div v-motion-visible-right>
+              <h3 style="color: #0868ac">
+                <img width="35" src="../assets/images/jquery.png" alt="jquery" />
+                jQuery
+              </h3>
+              <p>
+                jQuery, a powerful JavaScript library, simplifies web development by enhancing HTML
+                document interaction, event handling, animation, and DOM manipulation. Like
+                Bootstrap leveraging Sass, jQuery offers a modular and customizable architecture.
+                Import required components, utilize global options, and customize CSS using
+                variables, maps, functions, and mixins.
+              </p>
+            </div>
+          </li>
+          <li class="skill py-4">
+            <div v-motion-visible-left>
               <h3 style="color: #999">
                 <font-awesome-icon icon="fa-brands fa-github" />
                 Git & Github
               </h3>
-              <p class="">
+              <p>
                 Git is a free and open source distributed version control system designed to handle
                 everything from small to very large projects with speed and efficiency & Github is
                 an Internet hosting service for software development and version control using Git.
               </p>
             </div>
           </li>
+          <li class="skill py-4">
+            <div v-motion-visible-right>
+              <h3 style="color: #42b883">
+                <font-awesome-icon icon="fa-brands fa-vuejs" />
+                VueJs
+              </h3>
+              <p>
+                Vue.js, a powerful JavaScript framework, empowers developers with a customizable and
+                modular approach. Import specific components, unlock global options for gradients,
+                shadows, and unleash your creativity by customizing CSS using variables, maps,
+                functions, and mixins.
+              </p>
+            </div>
+          </li>
           <li>
-            <h1 class="">Always In Progress</h1>
+            <h1>Always In Progress</h1>
             <!-- <i class="fa-solid fa-spinner"></i> -->
             <font-awesome-icon icon="fa-solid fa-spinner" />
           </li>

@@ -56,7 +56,7 @@
     <div class="our-Services">
       <h2 class="text-center text-light pb-5">Our Services</h2>
       <div class="container overflow-hidden">
-        <div v-motion-visible-left class="row service justify-content-center">
+        <div v-motion-enter-left class="row service justify-content-center">
           <div class="card text-light custom-card mb-3">
             <div class="row g-0">
               <div class="col-md-4">

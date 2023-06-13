@@ -34,7 +34,7 @@
             </p>
             <p>
               <font-awesome-icon class="pe-2 ps-1" icon="fa-solid fa-location-dot" />
-              Turkey,Gaziantep
+              Turkey, Gaziantep
             </p>
             <p>
               <font-awesome-icon class="pe-2" icon="fa-solid fa-envelope" />

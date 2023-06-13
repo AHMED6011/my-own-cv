@@ -4,18 +4,18 @@
     <div class="project position-relative">
       <img class="img-fluid img" :src="img" alt="Project" />
       <div class="overlay position-absolute">
-        <h4 v-motion-visible-right>
+        <h4 v-motion-visibleR-right>
           {{ title }}
         </h4>
-        <p class="m-0" v-motion-visible-right>
+        <p class="m-0" v-motion-visibleR-right>
           {{ prag }}
         </p>
-        <ul v-motion-visible-right class="list-inline m-0">
+        <ul v-motion-visibleR-right class="list-inline m-0">
           <li v-for="lang in langMade" :key="lang" class="list-inline-item">
             {{ lang }}
           </li>
         </ul>
-        <div v-motion-visible-right class="links d-flex justify-content-end">
+        <div v-motion-visibleR-right class="links d-flex justify-content-end">
           <span class="me-2">
             <a id="github" :href="githubLink" target="_blank">
               <font-awesome-icon icon="fa-brands fa-github" />
