@@ -140,6 +140,36 @@ useMotion(targetL, {
               </p>
             </div>
           </li>
+          <li class="skill py-4">
+            <div v-motion-visible-right>
+              <h3 style="color: #07b6d5">
+                <img width="35" src="../assets/images/tailwind.png" alt="tailwind" />
+                Tailwind
+              </h3>
+              <p>
+                Tailwind CSS is a utility-first CSS framework that provides developers with a
+                comprehensive set of pre-built utility classes. Unlike traditional CSS frameworks,
+                Tailwind CSS does not impose a predefined UI style. Instead, it focuses on providing
+                low-level utility classes that can be combined to create custom designs. This
+                approach offers developers the freedom to design unique interfaces while maintaining
+                consistency and efficiency.
+              </p>
+            </div>
+          </li>
+          <li class="skill py-4">
+            <div v-motion-visible-right>
+              <h3 style="color: #42b883">
+                <font-awesome-icon icon="fa-brands fa-node-js" />
+                NodeJs & Express
+              </h3>
+              <p>
+                Node.js and Express together form a powerful duo for server-side JavaScript
+                development. Node.js, a runtime environment, enables executing JavaScript on the
+                server, while Express, a minimalistic and flexible web application framework,
+                simplifies the process of building robust web applications.
+              </p>
+            </div>
+          </li>
           <li>
             <h1>Always In Progress</h1>
             <!-- <i class="fa-solid fa-spinner"></i> -->

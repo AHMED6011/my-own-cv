@@ -21,6 +21,7 @@ import {
   faInstagram,
   faJs,
   faLinkedin,
+  faNodeJs,
   faSass,
   faTelegram,
   faTwitter,
@@ -70,7 +71,8 @@ library.add(
   faInstagram,
   faWhatsapp,
   faTelegram,
-  faVuejs
+  faVuejs,
+  faNodeJs
 )
 
 const app = createApp(App)
