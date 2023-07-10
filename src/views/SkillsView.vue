@@ -141,7 +141,7 @@ useMotion(targetL, {
             </div>
           </li>
           <li class="skill py-4">
-            <div v-motion-visible-right>
+            <div v-motion-visible-left>
               <h3 style="color: #07b6d5">
                 <img width="35" src="../assets/images/tailwind.png" alt="tailwind" />
                 Tailwind
