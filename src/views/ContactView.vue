@@ -3,7 +3,11 @@
     <div class="container py-5 custom-container">
       <h2 class="mb-4 text-light">Contact Us</h2>
       <div class="row">
-        <div v-motion-enter-right class="col-lg-6 col-md-6 col-12 mb-5 mb-md-0">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          class="col-lg-6 col-md-6 col-12 mb-5 mb-md-0"
+        >
           <form class="needs-validation m-auto" novalidate>
             <div class="mb-4">
               <input
@@ -40,7 +44,7 @@
             <button type="submit" class="btn btn-primary">Send</button>
           </form>
         </div>
-        <div v-motion-enter-left class="col-lg-6 col-md-6 col-12">
+        <div data-aos="fade-left" data-aos-duration="1000" class="col-lg-6 col-md-6 col-12">
           <div class="links">
             <div class="link-item mb-5">
               <a

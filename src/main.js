@@ -7,6 +7,11 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+AOS.init()
+
 import { MotionPlugin } from '@vueuse/motion'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -89,61 +94,6 @@ app.mount('#app')
 
 app.use(MotionPlugin, {
   directives: {
-    'enter-right': {
-      initial: {
-        opacity: 0,
-        x: -500
-      },
-      enter: {
-        opacity: 1,
-        x: 0,
-        transition: { duration: 700 }
-      }
-    },
-    'enter-left': {
-      initial: {
-        opacity: 0,
-        x: 500
-      },
-      enter: {
-        opacity: 1,
-        x: 0,
-        transition: { duration: 700 }
-      }
-    },
-    'visible-left': {
-      initial: {
-        opacity: 0,
-        x: 200
-      },
-      visibleOnce: {
-        opacity: 1,
-        x: 0,
-        transition: { duration: 700 }
-      }
-    },
-    'visible-right': {
-      initial: {
-        opacity: 0,
-        x: -200
-      },
-      visibleOnce: {
-        opacity: 1,
-        x: 0,
-        transition: { duration: 700 }
-      }
-    },
-    'visibleR-left': {
-      initial: {
-        opacity: 0,
-        x: 200
-      },
-      visible: {
-        opacity: 1,
-        x: 0,
-        transition: { duration: 700 }
-      }
-    },
     'visibleR-right': {
       initial: {
         opacity: 0,

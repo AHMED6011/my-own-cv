@@ -7,13 +7,14 @@
           <div class="row custom-content justify-content-around">
             <div class="col-7 img-holder text-center col-sm-5">
               <img
-                v-motion-enter-right
+                data-aos="fade-right"
+                data-aos-duration="1000"
                 src="../assets/images/myphoto.png"
                 class="img-fluid"
-                alt=""
+                alt="myphoto"
               />
             </div>
-            <div v-motion-enter-left class="col-4 col-sm-5 custom-text">
+            <div data-aos="fade-left" data-aos-duration="1000" class="col-4 col-sm-5 custom-text">
               <p>Ahmed Allawi</p>
               <p>Front-end Developer</p>
             </div>
@@ -22,7 +23,7 @@
       </div>
     </div>
     <!-- End Skills Section-->
-    <div v-motion-enter-right class="about-me pb-5">
+    <div data-aos="fade-up" data-aos-duration="1000" class="about-me pb-5">
       <div class="container">
         <div class="row">
           <div class="col-sm-8 col-md-6 col-lg-6 p-0">
@@ -38,7 +39,11 @@
             </p>
             <p>
               <font-awesome-icon class="pe-2" icon="fa-solid fa-envelope" />
-              ahmedallawi020@gmail.com
+              <a
+                class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                href="mailto:ahmedallawi020@gmail.com"
+                >ahmedallawi020@gmail.com</a
+              >
             </p>
             <ul class="list-inline links-list text-center pt-3">
               <li class="list-inline-item pe-4">

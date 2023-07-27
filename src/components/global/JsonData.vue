@@ -1,13 +1,18 @@
 <template>
-  <!-- <div class="data-projects"> -->
   <div class="col-lg-4 col-md-6 col-sm-10 g-4">
     <div class="project position-relative">
-      <img class="img-fluid img" :src="img" alt="Project" />
+      <img
+        data-aos="flip-up"
+        data-aos-duration="1000"
+        class="img-fluid img"
+        :src="img"
+        alt="Project"
+      />
       <div class="overlay position-absolute">
         <h4 v-motion-visibleR-right>
           {{ title }}
         </h4>
-        <p class="m-0" v-motion-visibleR-right>
+        <p v-motion-visibleR-right class="m-0">
           {{ prag }}
         </p>
         <ul v-motion-visibleR-right class="list-inline m-0">
@@ -30,7 +35,6 @@
       </div>
     </div>
   </div>
-  <!-- </div> -->
 </template>
 
 <script>

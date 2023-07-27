@@ -17,6 +17,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "@vueuse/motion": "^2.0.0",
+    "aos": "^2.3.4",
     "bootstrap": "^5.3.0",
     "i": "^0.3.7",
     "normalize.css": "^8.0.1",

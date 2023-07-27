@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import { useMotion } from '@vueuse/motion'
 import { ref } from 'vue'
 
@@ -27,7 +27,7 @@ useMotion(targetL, {
     transition: { duration: 1000 }
   }
 })
-</script>
+</script> -->
 
 <template>
   <div class="container-fluid d-flex justify-content-center overflow-hidden">
@@ -36,7 +36,7 @@ useMotion(targetL, {
         <ul class="skills list-unstyled">
           <p></p>
           <li class="skill py-4">
-            <div v-motion-enter-left>
+            <div data-aos="fade-left" data-aos-duration="1000">
               <h3 style="color: #e8612d">
                 <font-awesome-icon icon="fa-brands fa-html5" />
                 Html
@@ -48,7 +48,7 @@ useMotion(targetL, {
             </div>
           </li>
           <li class="skill py-4">
-            <div v-motion-enter-right>
+            <div data-aos="fade-right" data-aos-duration="1000">
               <h3 style="color: #214ce5">
                 <font-awesome-icon icon="fa-brands fa-css3" />
                 Css
@@ -62,7 +62,7 @@ useMotion(targetL, {
             </div>
           </li>
           <li class="skill py-4">
-            <div v-motion-enter-left>
+            <div data-aos="fade-left" data-aos-duration="1000">
               <h3 style="color: #ecd63f">
                 <font-awesome-icon icon="fa-brands fa-js" />
                 JavaScript
@@ -74,7 +74,7 @@ useMotion(targetL, {
             </div>
           </li>
           <li class="skill py-4">
-            <div v-motion-visible-right>
+            <div data-aos="fade-right" data-aos-duration="1000">
               <h3 style="color: #c76494">
                 <font-awesome-icon icon="fa-brands fa-sass" />
                 Scss
@@ -86,7 +86,7 @@ useMotion(targetL, {
             </div>
           </li>
           <li class="skill py-4">
-            <div v-motion-visible-left>
+            <div data-aos="fade-left" data-aos-duration="1000">
               <h3 style="color: #7430f9">
                 <font-awesome-icon icon="fa-brands fa-bootstrap" />
                 Bootstrap
@@ -99,7 +99,7 @@ useMotion(targetL, {
             </div>
           </li>
           <li class="skill py-4">
-            <div v-motion-visible-right>
+            <div data-aos="fade-right" data-aos-duration="1000">
               <h3 style="color: #0868ac">
                 <img width="35" src="../assets/images/jquery.png" alt="jquery" />
                 jQuery
@@ -114,7 +114,7 @@ useMotion(targetL, {
             </div>
           </li>
           <li class="skill py-4">
-            <div v-motion-visible-left>
+            <div data-aos="fade-left" data-aos-duration="1000">
               <h3 style="color: #999">
                 <font-awesome-icon icon="fa-brands fa-github" />
                 Git & Github
@@ -127,7 +127,7 @@ useMotion(targetL, {
             </div>
           </li>
           <li class="skill py-4">
-            <div v-motion-visible-right>
+            <div data-aos="fade-right" data-aos-duration="1000">
               <h3 style="color: #42b883">
                 <font-awesome-icon icon="fa-brands fa-vuejs" />
                 VueJs
@@ -141,7 +141,7 @@ useMotion(targetL, {
             </div>
           </li>
           <li class="skill py-4">
-            <div v-motion-visible-left>
+            <div data-aos="fade-left" data-aos-duration="1000">
               <h3 style="color: #07b6d5">
                 <img width="35" src="../assets/images/tailwind.png" alt="tailwind" />
                 Tailwind
@@ -157,7 +157,7 @@ useMotion(targetL, {
             </div>
           </li>
           <li class="skill py-4">
-            <div v-motion-visible-right>
+            <div data-aos="fade-right" data-aos-duration="1000">
               <h3 style="color: #42b883">
                 <font-awesome-icon icon="fa-brands fa-node-js" />
                 NodeJs & Express

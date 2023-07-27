@@ -8,6 +8,8 @@
         >
           <div
             v-motion-enter-right
+            data-aos="fade-right"
+            data-aos-duration="1000"
             class="text-content text-center text-sm-start ms-sm-5 fs-3 pb-3"
           >
             <div class="text-light">
@@ -46,7 +48,13 @@
           </div>
         </div>
         <div class="pt-5 overflow-hidden d-none d-sm-flex col-md-6 col-lg-8">
-          <img v-motion-enter-left class="w-100" src="../assets/images/land1.png" alt="land" />
+          <img
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            class="w-100"
+            src="../assets/images/land1.png"
+            alt="land"
+          />
         </div>
       </div>
     </div>
@@ -56,7 +64,11 @@
     <div class="our-Services">
       <h2 class="text-center text-light pb-5">Our Services</h2>
       <div class="container overflow-hidden">
-        <div v-motion-enter-left class="row service justify-content-center">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          class="row service justify-content-center"
+        >
           <div class="card text-light custom-card mb-3">
             <div class="row g-0">
               <div class="col-md-4">
@@ -78,7 +90,11 @@
             </div>
           </div>
         </div>
-        <div v-motion-visible-right class="row service justify-content-center">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          class="row service justify-content-center"
+        >
           <div class="card text-light custom-card mb-3">
             <div class="row g-0">
               <div class="col-md-4">
@@ -100,7 +116,11 @@
             </div>
           </div>
         </div>
-        <div v-motion-visible-left class="row service justify-content-center">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          class="row service justify-content-center"
+        >
           <div class="card text-light custom-card mb-3">
             <div class="row g-0">
               <div class="col-md-4">
@@ -122,7 +142,11 @@
             </div>
           </div>
         </div>
-        <div v-motion-visible-right class="row service justify-content-center">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          class="row service justify-content-center"
+        >
           <div class="card text-light custom-card mb-3">
             <div class="row g-0">
               <div class="col-md-4">
