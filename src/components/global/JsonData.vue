@@ -63,8 +63,8 @@ $grey-light: #eee;
     }
 
     & .overlay {
-      width: calc(100% + 2px);
-      height: calc(100% + 2px);
+      width: calc(100% + 1px);
+      height: calc(100% + 1px);
       background-color: #130429c9;
       backdrop-filter: blur(5px);
       border-radius: 10px;

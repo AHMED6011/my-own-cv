@@ -39,7 +39,7 @@
     "id": 5,
     "img": "https://cv-ahmed-c7c19.web.app/images/proj_4.png",
     "title": "Website to watch videos",
-    "prag": "A site similar to YouTube that enables the user to watch videos through it and enables the viewer to add video comments.",
+    "prag": "A site similar to YouTube enables the user to watch videos through it and enables the users to add video comments.",
     "langMade": ["Html", "Css", "jQuery", "bootstrap", "Multi-Pages"],
 
     "githubLink": "https://github.com/AHMED6011/shahid",
@@ -71,5 +71,14 @@
     "langMade": ["Html", "Css", "JavaScript"],
     "githubLink": "https://github.com/AHMED6011/HTML_And_CSS_Project",
     "siteLink": "https://ahmed6011.github.io/HTML_And_CSS_Project/"
+  },
+  {
+    "id": 8,
+    "img": "https://ahmed6011.github.io/images/images/courses.png",
+    "title": "Courses",
+    "prag": "A course website provides users with instructional videos, offering an immersive learning experience.",
+    "langMade": ["VueJs", "Scss", "Bootstrap", "AOS"],
+    "githubLink": "https://github.com/AHMED6011/courses",
+    "siteLink": "https://courses-tau-nine.vercel.app/"
   }
 ]

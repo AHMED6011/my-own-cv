@@ -13,11 +13,11 @@ export default {
 </script>
 
 <template>
-  <div class="main-page p-0 container-fluid">
+  <main class="main-page p-0 container-fluid">
     <SideBar />
     <RouterView />
     <FooterBar />
-  </div>
+  </main>
 </template>
 
 <style scoped>

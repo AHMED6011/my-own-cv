@@ -90,6 +90,8 @@ app.use(router)
 
 app.mount('#app')
 
+app.config.globalProperties.isOpen = true
+
 //! Animation on Scroll Or on Load
 
 app.use(MotionPlugin, {
