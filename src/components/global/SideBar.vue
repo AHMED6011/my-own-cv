@@ -74,7 +74,13 @@ export default {
     },
     closed() {
       this.opened = true
+      document.body.style.overflow = 'auto'
     }
+  },
+  created() {
+    setInterval(() => {
+      // console.log(this.opened)
+    }, 2000)
   }
 }
 </script>
@@ -89,6 +95,7 @@ export default {
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
+  // overflow: ;
 }
 .visible {
   opacity: 1;
