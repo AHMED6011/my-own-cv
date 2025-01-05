@@ -1,34 +1,3 @@
-<!-- <script setup>
-import { useMotion } from '@vueuse/motion'
-import { ref } from 'vue'
-
-const targetR = ref()
-useMotion(targetR, {
-  initial: {
-    opacity: 0,
-    x: -500
-  },
-  visible: {
-    opacity: 1,
-    x: 0,
-    transition: { duration: 1000 }
-  }
-})
-
-const targetL = ref()
-useMotion(targetL, {
-  initial: {
-    opacity: 0,
-    x: 500
-  },
-  visible: {
-    opacity: 1,
-    x: 0,
-    transition: { duration: 1000 }
-  }
-})
-</script> -->
-
 <template>
   <div class="container-fluid d-flex justify-content-center overflow-hidden">
     <div class="skills">
