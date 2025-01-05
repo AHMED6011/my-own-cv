@@ -7,7 +7,6 @@
           class="col-md-6 overlfow-hidden col-lg-4 d-flex flex-column justify-content-center align-items-start"
         >
           <div
-            v-motion-enter-right
             data-aos="fade-right"
             data-aos-duration="1000"
             class="text-content text-center text-sm-start ms-sm-5 fs-3 pb-3"

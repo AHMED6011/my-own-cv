@@ -31,7 +31,8 @@ import {
   faTelegram,
   faTwitter,
   faVuejs,
-  faWhatsapp
+  faWhatsapp,
+  faDiaspora
 } from '@fortawesome/free-brands-svg-icons'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -77,7 +78,8 @@ library.add(
   faWhatsapp,
   faTelegram,
   faVuejs,
-  faNodeJs
+  faNodeJs,
+  faDiaspora
 )
 
 const app = createApp(App)

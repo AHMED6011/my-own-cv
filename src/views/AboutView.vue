@@ -80,40 +80,44 @@ $pink-col: #f7c8e9;
 $purple-col: #9191f6;
 $pink-light: #eeeeee85;
 $grey-light: #eee;
-.about {
-  height: 350px;
-  position: relative;
-  & .custom-bg-img {
-    width: 80%;
-    padding: 100px 0 200px;
-    background-image: url(../assets/images/keyboard.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    right: 50%;
-    border-radius: 20px;
-    transform: translate(50%, -30%);
-  }
-
-  .custom-content {
-    position: absolute;
-    top: 0;
-    & .img-holder img {
-      height: 85%;
-      border-radius: 50%;
-      padding: 5px;
-      border: 2px solid $purple-col;
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .about {
+    & .custom-bg-img {
+      width: 80%;
+      padding: 100px 0 200px;
+      background-image: url(../assets/images/keyboard.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      right: 50%;
+      border-radius: 20px;
+      transform: translate(50%, -30%);
     }
 
-    & .custom-text {
-      font-size: 22px;
-      padding-bottom: 30px;
-      color: white;
-      display: flex;
-      justify-content: end;
-      align-items: start;
-      flex-direction: column;
+    .custom-content {
+      position: absolute;
+      top: 0;
+      & .img-holder img {
+        height: 85%;
+        border-radius: 50%;
+        padding: 5px;
+        border: 2px solid $purple-col;
+      }
+
+      & .custom-text {
+        font-size: 22px;
+        padding-bottom: 30px;
+        color: white;
+        display: flex;
+        justify-content: end;
+        align-items: start;
+        flex-direction: column;
+      }
     }
   }
 }

@@ -46,6 +46,7 @@ export default {
 
 <style lang="scss" scoped>
 $pink-col: #f7c8e9;
+//$purple-col: #9191f6;
 $purple-col: #9191f6;
 $pink-light: #eeeeee85;
 $grey-light: #eee;

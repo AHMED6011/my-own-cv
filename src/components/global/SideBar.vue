@@ -3,11 +3,11 @@
     <header class="custom-header" :class="{ 'sidebar-open': !opened }">
       <nav class="navbar custom-navbar navbar-expand-xxl">
         <div>
-          <p class="navbar-brand fs-4" href="#">
+          <p class="navbar-brand fs-4">
             <span class="px-2 fw-medium me-3 bg-light rounded">CV</span>
-            <span class="fw-bold text-light">Ahmed A A A</span>
+            <span @click="toTop" class="fw-bold text-light">Ahmed A A A</span>
           </p>
-          <div class="pt-4 custom-collapse navbar-collapse">
+          <div class="pt-4 custom-collapse">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li @click="closed" class="nav-item">
                 <RouterLink class="nav-link" to="/">
@@ -49,7 +49,7 @@
       @click="toggleSidebar"
       class="btn border-0 custom-togller-btn"
     >
-      <font-awesome-icon :class="{ trans: opened }" icon="fa-double fa-angle-double-left" />
+      <font-awesome-icon :class="{ trans: opened }" icon="fas-double fa-angle-double-left" />
     </button>
     <div class="overly" :class="{ visible: !opened }" @click="toggleSidebar"></div>
   </main>
@@ -69,12 +69,12 @@ export default {
   methods: {
     toggleSidebar() {
       this.opened = !this.opened
-
       document.body.style.overflow = !this.opened ? 'hidden' : 'auto'
     },
     closed() {
       this.opened = true
       document.body.style.overflow = 'auto'
+      window.scrollTo(0, 0)
     }
   }
 }
@@ -90,7 +90,6 @@ export default {
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
-  // overflow: ;
 }
 .visible {
   opacity: 1;
